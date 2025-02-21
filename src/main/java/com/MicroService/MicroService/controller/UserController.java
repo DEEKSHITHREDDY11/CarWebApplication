@@ -67,7 +67,7 @@ public class UserController
     {
         String type = service.type(userid);
         String status = service.status(userid);
-        if(type.equals("User"))
+        if(type.equals("ROLE_USER"))
         {
             if (status.equals("Rented")) // If Status = "Rented" will display the details of the car
             {
